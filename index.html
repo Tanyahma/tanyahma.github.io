@@ -6,50 +6,40 @@
 
 
     <style>
-        * {
-            box-sizing: border-box;
-        }
 
-        body {
+       body {
             color: #878787;
-            margin: 0;
+            margin: auto;
+            width: 80%;
             font-family: sans-serif;
             text-align: center;
         }
-
-        @media only screen and (max-width: 600px) {
-            body{
-                display: flex;
-                flex-direction: column;
-            }
-            a {
-                display: block;
-                background-color: lightgray;
-            }
-        }
-
-        @media only screen and (min-width: 601px) {
-            body {
-                display: flex;
-                flex-direction: row;
-            }
 
         img {
             max-width: 100%;
             border-radius: 1px 1px 1px; 
         }
 
+        div {
+            padding: 10px
+        }
+
         a {
             text-decoration: none;
+            text-align: center;
             
         }
 
+        a:hover {
+            color: #C896BF;
+        }
+
         .nav-header {
-            background: #ffcce6;
+            background: white;
             height: auto;
             display: flex;
             margin-bottom: 0px;
-        }
+        }   
 
         .nav-div {
             margin: auto;
@@ -58,10 +48,6 @@
         .logo-img {
             width: 120px;
             margin-left: 20px;
-        }
-
-        .heart-icon {
-            margin: 30px;
         }
 
         .nav-bar {
@@ -133,12 +119,14 @@
             padding: 5px;
         }
 
+
     </style>
 </head>
 
 <body>
+
     <div class="nav-header">
-        <img class="logo-img" src="imgs/you!.jpg" alt="blog logo">
+        <img class="logo-img" src="imgs/logo.png" alt="blog logo">
         <div class="nav-div">
             <ul class="nav-bar">
                 <li><a class="nav-bar-link" href="index.html">Home</a></li>
@@ -146,10 +134,8 @@
                 <li><a class="nav-bar-link" href="meals.html">Meals</a></li>
             </ul>
         </div>
-        <div class="heart-icon">
-            <i class="fas fa-heart"></i>
-        </div>
     </div>
+
 
     <div class="main-header">
         <h1 class="main-header-title">Healthy Lifestyle</h1>
@@ -192,15 +178,7 @@
                 <li>Carry extra water just in case</li>
                 <li>Pack light</li>
             </ol>
-    </div>
-   
-
-    <div class="footer">
-        <i class="fab fa-facebook-square fa-2x"></i>
-        <i class="fab fa-twitter-square fa-2x"></i>
-        <i class="fab fa-flickr fa-2x"></i>
-
-    </div>
+        </div>
 
 </body>
 
