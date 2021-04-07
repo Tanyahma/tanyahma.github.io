@@ -34,6 +34,23 @@
             color: #C896BF;
         }
 
+        @media only screen and (max-width: 600px) {
+            .content {
+                display: flex;
+                flex-direction: column;
+            }
+            a {
+                display: block;
+                background-color: lightgray;
+            }
+        }
+
+        @media only screen and (min-width: 601px) {
+            .content {
+                display: flex;
+                flex-direction: row;
+            }
+
         .nav-header {
             background: white;
             height: auto;
@@ -112,14 +129,6 @@
             margin-bottom: 40px;
             box-shadow: 3px 3px 2px;
         }
-
-        .footer {
-            height: 40px;
-            background: #f0f5f5;
-            padding: 5px;
-        }
-
-
     </style>
 </head>
 
@@ -164,6 +173,7 @@
                 <li><a href="#">Life balancing</a></li>
             </ul>
         </div>
+    </div>
         
 
         <div class="card">
