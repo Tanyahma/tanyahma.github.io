@@ -1,0 +1,123 @@
+
+body {
+	color: #878787;
+    margin: auto;
+    width: 80%;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 1px 1px 1px; 
+}
+
+div {
+    padding: 10px
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+a:hover {
+    color: #C896BF;
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+    a {
+        display: block;
+        background-color: lightgray;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .content {
+        display: flex;
+        flex-direction: row;
+    }
+
+.nav-header {
+    background: white;
+    height: auto;
+    display: flex;
+    margin-bottom: 0px;
+}   
+
+.nav-div {
+    margin: auto;
+}
+
+.logo-img {
+    width: 120px;
+    margin-left: 20px;
+}
+
+.nav-bar {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-bar-link {
+    color: #878787;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.main-header {
+    background: url("") top;
+    background-size: cover;
+    height: 300px;
+}
+
+.main-header-title {
+    text-align: left;
+    font-size: 2.5em;
+    color: #f7f8f9;
+    font-family: 'Brush Script MT', cursive;
+    color: #C896BF;
+    font-weight: normal;
+    padding-left: 75px;
+    text-shadow: 2px 2px 5px black;
+    margin-top: 0px;
+}
+
+.main-header-intro {
+    line-height: 1.5em;
+    width: 50%;
+    margin: auto;
+    padding: 40px;
+    color: #333333;
+    text-align: center;
+}
+
+.intro {
+    width: 60%;
+    margin: auto;
+
+}
+
+.box {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.card {
+    width: 100%;
+    padding: 20px;
+    text-align: left;
+    border: 1px solid;
+    border-radius: 3px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 40px;
+    box-shadow: 3px 3px 2px;
+}
