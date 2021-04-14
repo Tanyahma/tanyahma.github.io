@@ -3,136 +3,9 @@
 <head>
     <title>Blog</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="mycss.css">
     
     <style>
-        * {
-            box-sizing: border-box;
-        }
-
-        body {
-            color: #878787;
-            margin: 0;
-            font-family: sans-serif;
-            text-align: center;
-        }
-
-        img {
-            max-width: 100%;
-            border-radius: 1px 1px 1px; 
-        }
-
-         div {
-            padding: 10px
-        }
-
-        a {
-            text-decoration: none;
-            text-align: center;
-        }
-
-        a:hover {
-            color: #C896BF;
-        }
-
-        @media only screen and (max-width: 600px) {
-            .content {
-                display: flex;
-                flex-direction: column;
-            }
-            a {
-                display: block;
-                background-color: lightgray;
-                margin: auto;
-            }
-
-        @media only screen and (min-width: 601px) {
-            .content {
-                display: flex;
-                flex-direction: row;
-            }
-
-        ul {
-            color: grey;
-        }
-
-        .nav-header {
-            background: white;
-            height: auto;
-            display: flex;
-            margin-bottom: 0px;
-        }
-
-        .nav-div {
-            margin: auto;
-        }
-
-        .logo-img {
-            width: 120px;
-            margin-left: 20px;
-        }
-
-        .nav-bar {
-            list-style-type: none;
-            display: flex;
-        }
-
-        .nav-bar-link {
-            color: #878787;
-            font-size: 24px;
-            padding: 20px;
-        }
-
-        .main-header {
-            background: url("") top;
-            background-size: cover;
-            height: 300px;
-        }
-
-        .main-header-title {
-            text-align: left;
-            font-size: 2.5em;
-            color: #f7f8f9;
-            font-family: 'Brush Script MT', cursive;
-            color: #C896BF;
-            font-weight: normal;
-            padding-left: 75px;
-            text-shadow: 2px 2px 5px black;
-            margin-top: 0px;
-        }
-
-        .main-header-intro {
-            line-height: 1.5em;
-            width: 50%;
-            margin: auto;
-            padding: 40px;
-            color: #333333;
-            text-align: center;
-        }
-
-        .intro {
-            width: 60%;
-            margin: auto;
-
-        }
-
-        .box {
-            width: 80%;
-            margin: auto;
-            display: flex;
-        }
-
-        .card {
-            width: 100%;
-            padding: 20px;
-            text-align: left;
-            border: 1px solid;
-            border-radius: 3px;
-            margin-top: 20px;
-            margin-left: 25px;
-            margin-right: 25px;
-            margin-bottom: 40px;
-            box-shadow: 3px 3px 2px;
-        }
     </style>
 </head>
 
@@ -143,7 +16,7 @@
             <ul class="nav-bar">
                 <li><a class="nav-bar-link" href="index.html">Home</a></li>
                 <li><a class="nav-bar-link" href="workout.html">Workouts</a></li>
-                <li><a class="nav-bar-link" href="meals.html">Meals</a></li>
+                <li><a class="nav-bar-link" href="meals.html">Diet</a></li>
             </ul>
         </div>
         <div class="heart-icon">
@@ -152,40 +25,28 @@
     </div>
 
     <div class="Workout split">
-        <h1 class="main-header-title">Healthy Meals</h1>
+        <h1 class="main-header-title">Diets and Meal preps</h1>
     </div>
 
     <div class="box">
         <div class="card">
-            <img src="" alt="Targeting">
-            <h3>Healthy Snacks</h3>
+            <img src="imgs/healthyfood.jpg" alt="Diet">
+            <h3>Different "Diets"</h3>
             <p>
-                When working out you can really customize what your workouts with things you love while also targeting specific muscle groups in your workout. Some workouts mainly focus on:
+                I don't usually like using the word diet when it comes to eating healthy because people usually think of "restrictions" when they hear diet and think they won't enjoy the food because it's healthy and boring which does not have to be the case! 
+            </p>
+            <p>
+                Having a consistent diet and eating cleaner is an important part of the fitness and healthy lifestyle process and can look different for everyone! Some different diets may include:
             </p>
             <ul>
-                <li>Biceps</li>
-                <li>Back</li>
-                <li>Quads</li>
-                <li>Glutes</li>
+                <li>Being Vegetarian</li>
+                <li>Being Vegan</li>
+                <li>Keto</li>
+                <li>No dairy</li>
                 <li>And much more!</li>
 
             </ul>
         </div>
-    </div>
-        
-
-        <div class="card">
-            <img src="" alt="extras">
-            <h3>Meals</h3>
-            <p>
-                Whether you're working out at home or at the gym, there a few things that you can add to your routine and can help improve your experience
-            </p>
-            <ol>
-                <li>Water always!</li>
-                <li>Headphones and music you enjoy</li>
-                <li>Resistence Bands</li>
-                <li>Floor mat</li>
-            </ol>
-    </div>
+</div>
 
 </body>
