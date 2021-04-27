@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="zxx"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Tanya's Blog</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./W3.CSS_Template_files/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif;}
+body, html {
+  height: 100%;
+  color: #777;
+  line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+  background-image: url('imgs/lilac.jpg');
+  min-height: 100%;
+}
+
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-width: 1600px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+    min-height: 400px;
+  }
+}
+</style>
+</head><body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="indexcopy.html" class="nav-bar-link w3-bar-item w3-button">HOME</a>
+    <a href="indexcopy.html" class="w3-bar-item w3-button w3-hide-small"> ABOUT</a>
+    <a href="goal.html" class="w3-bar-item w3-button w3-hide-small">GOAL</a>
+    <a href="workoutcopy.html" class=" nav-bar-link w3-bar-item w3-button w3-hide-small"> WORKOUTS</a>
+    <a href="mealscopy.html" class="w3-bar-item w3-button w3-hide-small">MEALS</a>
+    <a href="inspo.html" class="w3-bar-item w3-button w3-hide-small">INSPIRATION</a>
+    <a href="influencers.html" class="w3-bar-item w3-button w3-hide-small">INFLUENCERS</a>
+    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="indexcopy.html" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="goal.html" class="w3-bar-item w3-button" onclick="toggleFunction()">GOAL</a>
+    <a href="workoutcopy.html" class="w3-bar-item w3-button" onclick="toggleFunction()">WORKOUTS</a>
+    <a href="mealscopy.html" class="w3-bar-item w3-button" onclick="toggleFunction()">MEALS</a>
+    <a href="inspo.html" class="w3-bar-item w3-button" onclick="toggleFunction()">INSPO</a>
+    <a href="influencers.html" class="w3-bar-item w3-button" onclick="toggleFunction()">INFLUENCERS</a>
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home"> <img src="./W3.CSS_Template_files/logo1.png" alt= "logo" class="w3-display-middle w3-image">
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64">
+  <h3 class="w3-center">WORKOUT!</h3>
+  <p class="w3-center w3-serif">When working out you can really customize your workouts with things you love. This may include just going for a walk and/or run, swimming, biking, hiking, and more!</p>
+  <div class="w3-row">
+    <div class="w3-center w3-padding-large">
+    </div>
+           
+    </div>
+  </div>
+ 
+  <div class="box">
+         <div class="card">
+          <div class="w3-row-padding w3-third w3-center">
+            <img src="imgs/photo3.jpg" alt="extras" width="275" height="183">
+            <h3>What you need</h3>
+            <p>
+                Whether you're working out at home or at the gym, there a few things that you can add to your routine and can help improve your experience
+            </p>
+            <ol>
+                <li>Have water at all times!</li>
+                <li>Headphones and music you enjoy</li>
+                <li>Resistence Bands</li>
+                <li>Floor mat</li>
+                <li>Fitness gloves for lifting</li>
+                <li>Barbell padding for lift</li>
+                <li>Lifting belt for back support</li>
+            </ol>
+            <p class="w3-serif">(These are just recommeneded to help and enhance your workout experience but not needed (besides water, DRINK YOUR WATER!)</p>
+        </div>
+
+          <div class="card">
+            <div class="w3-row-padding w3-third w3-center">
+            <img src="imgs/photo1.jpg" alt="Targeting" width="275" height="183">
+            <h3>Targeting Areas</h3>
+            <p>
+                I personally love going to the gym to work on making myself fit and stronger! When working out with weights you can really focus on specific muscle groups in your workout that you want to work on and make stronger. These muscle groups include:
+            </p>
+            <ul>
+                <li>Biceps</li>
+                <li>Back</li>
+                <li>Quads</li>
+                <li>Glutes</li>
+                <li>And much more!</li>
+
+            </ul>
+        </div>
+
+    <div class="card">
+      <div class="w3-row-padding w3-third w3-center">
+            <img src="imgs/photo2.jpg" alt="extras" class="w3-padding-20" width="275" height="183">
+            <h3>Weekly routine</h3>
+            <p>
+               Having a routine prepped and ready for the week with your weekly workouts is a good step to take to stay motivated. Having your days planned to specifc muscle groups and workouts can help simlify working out at the gym when you get there so you don't have wonder what to do or worry about thinking of workouts on the spot! Below is an example of a weekly routine that you could follow to start:
+            </p>
+            <p>
+                This will vary on how often you exercise and what your goals are!
+            </p>
+    </div>
+        
+
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <h3 class="w3-padding-16 w3-pale-red w3-text-grey w3-center">Work Out Split</h3>
+      <div class="w3-quarter w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Sunday</li>
+          <li class="w3-padding-16">Cardio</li>
+          <li class="w3-padding-16">or</li>
+          <li class="w3-padding-16">Rest Day!</li>
+          <li class="w3-padding-16">
+            <h2></h2>
+            <span class="w3-opacity">(Having an active Rest day is also good!)</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-quarter">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Monday</li>
+          <li class="w3-padding-16">Triceps</li>
+          <li class="w3-padding-16">Chest</li>
+          <li class="w3-padding-16">Shoulders</li>
+          <li class="w3-padding-16">
+            <span class="w3-opacity">You can also switch out for a full upper body day</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-quarter">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Tuesday</li>
+          <li class="w3-padding-16">Glutes</li>
+          <li class="w3-padding-16">Hamstrings</li>
+          <li class="w3-padding-16">Cardio</li>
+          <li class="w3-padding-16"></li>
+        </ul>
+      </div>
+
+       <div class="w3-quarter">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Wednesday</li>
+          <li class="w3-padding-16">Abs</li>
+          <li class="w3-padding-16">Cardio</li>
+          <li class="w3-padding-16">or</li>
+          <li class="w3-padding-16">Rest Day</li>
+          <li class="w3-padding-16">
+            <span class="w3-opacity"></span>
+          </li>
+        </ul>
+      </div>
+
+       <div class="w3-quarter">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Thursday</li>
+          <li class="w3-padding-16">Back</li>
+          <li class="w3-padding-16">Biceps</li>
+          <li class="w3-padding-16">Abs</li>
+        </ul>
+      </div>
+
+       <div class="w3-quarter">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Friday</li>
+          <li class="w3-padding-16">Glutes</li>
+          <li class="w3-padding-16">Quads</li>
+          <li class="w3-padding-16">Hamstrings</li>
+          <li class="w3-padding-16">
+          </li>
+        </ul>
+      </div>
+
+       <div class="w3-quarter">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Saturday</li>
+          <li class="w3-padding-16">Full Body</li>
+          <li class="w3-padding-16">or</li>
+          <li class="w3-padding-16">Rest Day</li>
+          <li class="w3-padding-16">
+           
+          </li>
+        </ul>
+      </div>
+</div>
+
+
+
+
+
+<!-- Second Parallax Image with Portfolio Text -->
+
+
+<!-- Container (Portfolio Section) -->
+
+
+<!-- Modal for full size images on click-->
+
+
+<!-- Third Parallax Image with Portfolio Text -->
+
+
+<!-- Container (Contact Section) -->
+
+<!-- Footer -->
+<footer class="w3-center w3-pale-red w3-padding-64 w3-opacity w3-hover-opacity-off">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+  <a href="https://www.instagram.com/tanyacabral/"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
+   <a href="https://pin.it/48yYULg"> <i class="fa fa-pinterest-p w3-hover-opacity"></i></a>
+  </div>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-pink">w3.css</a></p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show"; 
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+
+</body></html>
